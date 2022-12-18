@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalon - Products For You</title>
+<link rel="icon" type="image/x-icon" href="images/icon.png">
+<style id="applicationStylesheet" type="text/css">
+
+
+	#home {
+		position: absolute;
+		width: 1440px;
+		height: 791px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Web 1366 – 1;
+		--web-view-id: Web_1366__1;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#rectangle {
+		fill: rgba(101,108,85,1);
+	}
+	.rectangle {
+		position: absolute;
+		overflow: visible;
+		width: 412px;
+		height: 119px;
+		left: 514px;
+		top: 378px;
+	}
+	#Browse_Sephora {
+		left: 578px;
+		top: 414px;
+		position: absolute;
+		overflow: visible;
+		width: 275px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Optima;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 39px;
+		color: rgba(236,232,221,1);
+	}
+		a:link {
+		color: rgba(236,232,221,1);
+		background-color: transparent;
+		text-decoration: none;
+		}
+		a:visited {
+		color: rgba(236,232,221,1);
+		background-color: transparent;
+		text-decoration: none;
+		}
+		a:hover {
+		color: rgba(236,232,221,1);
+		background-color: transparent;
+		}	
+
+</style>
+
+</head>
+<body>
+<div id="home">
+	<img id="home" src="home.png">
+		
+	<svg class="rectangle">
+		<rect id="rectangle" rx="52" ry="52" x="0" y="0" width="412" height="119">
+		</rect>
+	</svg>
+	<div id="Browse_Sephora">
+		<span><a href="kalon.html">Browse Sephora</a></span>
+	</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kalon - Products For You</title>
+        <style>
+            body { margin: 0; }
+        </style>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://threejs.org/build/three.js"></script>
+        <script src="https://threejs.org/examples/js/loaders/GLTFLoader.js"></script>
+        <script src="https://unpkg.com/web-audio-daw"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
